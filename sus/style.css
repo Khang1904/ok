@@ -1,0 +1,35 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+button {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 200px;
+    height: 50px;
+
+    border-radius: 20px;
+    border-style: none;
+    background-color: #4CAF50;
+}
+
+button:hover {
+    animation: rainbow 2s infinite;
+}
+
+@keyframes rainbow {
+    0% { background-color: #FF0000; }
+    16% { background-color: #FF7F00; }
+    33% { background-color: #FFFF00; }
+    50% { background-color: #00FF00; }
+    66% { background-color: #0000FF; }
+    83% { background-color: #4B0082; }
+    100% { background-color: #8B00FF; }
+}
+
